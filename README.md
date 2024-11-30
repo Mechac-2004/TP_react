@@ -54,12 +54,14 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 Répartition des tâches pour la réalisation du TP_React
+
 -Le header (Kassandra)
 -Dans Body{
             -Consectetuer vehicula ab (Laurence)
             -Kitchen (Ruth)
             -Recent Posts et Tags (Méchac)
             -Footer (Raisath)
+            
 Lors de la réalisation du TP faite savoir les difficultées rencontrer pour avoir d'aide.
 Vous pouvez utiliser Bootstrap (qui est déjà installer) et por les Icons (déjà installer aussi)
 Vous avez la possibilité d'utiliser css sur les fichiers tsx de votre partie assigné en cas de difficulté notifier le. 
