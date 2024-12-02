@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+
+.pagination .page-item .page-link {
+  color:  #fa0808 !important;
+  border: 2px solid #fa0808 !important; 
+  border-radius: 5px; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pagination .page-item.active .page-link {
+  background-color: #fa0808 !important;
+  border-color:#fa0808 !important;
+  color: white !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pagination .page-item .page-link:hover {
+  background-color: #fa0808 !important;
+  border-color: #fa0808 !important;
+  color: white !important;
+}
+.date-red {
+  color: rgb(251, 92, 92);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.read-more-red {
+  background-color: rgb(251, 92, 92);
+  border-color: rgb(251, 92, 92);
+}
+
+.read-more-red:hover {
+  background-color: rgb(250, 79, 79);
+  border-color: rgb(253, 106, 106);
+}
+.read-more-red {
+  background-color: rgb(251, 76, 76);
+  border-color: rgb(248, 82, 82);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.read-more-red:hover {
+  background-color: rgb(248, 111, 111);
+  border-color: rgb(239, 76, 76);
+}
+.date-red {
+  color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.read-more-red {
+  background-color: red;
+  border-color: red;
+  color: white; 
 }
+
+.read-more-red:hover {
+  background-color: darkred;
+  border-color: darkred;
+}
+
+.custom-image {
+  height: 200px; 
+  width: 50%;
+  object-fit: cover;
+  border: none; 
+
+}
+
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+
+.blog-list > .col-md-6 {
+  flex: 1 1 calc(50% - 10px); 
+  margin-bottom: 20px;
+}
+.blog-list .col-md-6:nth-child(1),
+.blog-list .col-md-6:nth-child(2) {
+  margin-bottom: 10px;
+}
+
+.space-next {
+  margin-left: 700px; 
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
+}
+
+.card-title-link,
+.card-date-link {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.card-title-link:hover,
+.card-date-link:hover {
+  text-decoration: none; 
+}
+
+.read-more-red-link {
+  color: red;
+  text-decoration:none;
+}
+
+
+.blog-grid-container {
+  border: 1px solid #ddd; 
+  padding: 20px; 
+  border-radius: 8px; 
+  background-color: #f9f9f9; 
+}
+
+.no-border {
+  border: none; 
+}
+
+.card-img-top {
+  border: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
