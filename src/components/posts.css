@@ -1,0 +1,56 @@
+* Conteneur principal */
+.footer-container {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+  }
+.search {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .search input[type="search"] {
+    width: 300px;
+    padding: 10px 40px 10px 10px; 
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .search i {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #ccc; 
+    pointer-events: none; 
+  }
+  .search input[type="search"]:focus {
+    outline: none; 
+    border: 2px solid rgb(240, 239, 239); 
+  }
+
+  .recent_post{
+    border: 3px solid #ccc;
+    text-align: center;
+    border-radius: 4px;
+  }
+  .posts{
+    display: flex;
+  }
+  .posts_info{
+    margin: 5px;
+  }
+  .img_posts{
+    width: 100px;
+    height: 100px;
+  }
+
+.post-hr {
+    border: none;
+    border-top: 1px solid #ccc; 
+    margin: 10px 0; 
+  }
+  
+  
