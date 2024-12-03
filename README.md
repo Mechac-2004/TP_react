@@ -44,3 +44,26 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+
+
+
+
+
+
+Répartition des tâches pour la réalisation du TP_React
+
+-Le header (Kassandra)
+-Dans Body{
+            -Consectetuer vehicula ab (Laurence)
+            -Kitchen (Ruth)
+            -Recent Posts et Tags (Méchac)
+            -Footer (Raisath)
+            
+Lors de la réalisation du TP faite savoir les difficultées rencontrer pour avoir d'aide.
+Vous pouvez utiliser Bootstrap (qui est déjà installer) et por les Icons (déjà installer aussi)
+Vous avez la possibilité d'utiliser css sur les fichiers tsx de votre partie assigné en cas de difficulté notifier le. 
+  
+Delai de rendu (Le lundi soir avant 21h)
