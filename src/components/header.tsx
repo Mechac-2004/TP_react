@@ -29,6 +29,7 @@ export default function Header(){
                     <li><a href="">Outdoors</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
+                
             </div>
         </div>
         <div className="text-center">

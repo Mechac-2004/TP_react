@@ -106,11 +106,6 @@ export default function LivingRoom() {
                 </div>
                     <hr />
 
-
-
-
-
-
                     <div className="blog-grid-container">
                         <div className="blog-grid">
                             {displayedPosts.map((post, index) => (
@@ -123,7 +118,7 @@ export default function LivingRoom() {
                     </div>
 
                     {/* Pagination */}
-<div className="pagination-container">
+                    <div className="pagination-container">
     {currentPage > 1 && (
         <button
             className="pagination-btn"
@@ -157,29 +152,9 @@ export default function LivingRoom() {
     Next <i className="bx bx-right-arrow-alt"></i>
 </button>
 
-</div>
+                    </div>
 
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             <div className="footer-container">
                 <div className="search">
