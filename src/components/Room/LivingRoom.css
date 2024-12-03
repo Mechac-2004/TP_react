@@ -1,0 +1,275 @@
+* Conteneur principal */
+.footer-container {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+  }
+.search {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .search input[type="search"] {
+    width: 300px;
+    padding: 10px 40px 10px 10px; 
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .search i {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #ccc; 
+    pointer-events: none; 
+  }
+  .search input[type="search"]:focus {
+    outline: none; 
+    border: 2px solid rgb(240, 239, 239); 
+  }
+
+  .recent_post{
+    border: 3px solid #ccc;
+    text-align: center;
+    border-radius: 4px;
+  }
+  .posts{
+    display: flex;
+  }
+  .posts_info{
+    margin: 5px;
+  }
+  .img_posts{
+    width: 100px;
+    height: 100px;
+  }
+
+  .post-hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+    width: 80%; 
+    margin-left: 0; 
+    margin-right: auto; 
+}
+
+  
+  
+
+
+.main{
+    display: flex;
+}  
+
+
+.main {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    flex: 2; 
+}
+
+.footer-container {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    border-left: 2px solid #ccc;
+    padding-left: 20px; 
+}
+
+/* Style des recherches */
+.search {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.search input[type="search"] {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #aaa;
+}
+
+/* Style des posts récents */
+.recent_post {
+    margin-top: 20px;
+}
+
+.posts {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.img_posts {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px; 
+}
+
+.posts_info h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.posts_info p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.main{
+    display:flex;
+}
+section{
+    margin-top: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.container_kitchen h1{
+    color: #000000;
+    font-size: 25px;
+}
+.container_kitchen .date{
+    color: red;
+    font-size: 11px;
+}
+
+.container_kitchen a{
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.img img {
+    width: 650px; 
+    height: auto; 
+    margin-bottom: 20px; 
+}
+
+.container_kitchen .text{
+    font-size: 15px;
+    
+}
+
+.blog-post-card img {
+    width: 100%; 
+    max-width: 300px;
+    height: auto; 
+}
+
+.blog-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.blog-post-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0; 
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+.blog-post-card {
+    padding: 10px;
+}
+
+.footer-container {
+    padding-top: 30px;
+}
+
+
+.post-hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+    width: 100%;
+    margin-right: auto;
+}
+
+
+.blog-post-card p,
+.blog-post-card h1, 
+.blog-post-card h2, 
+.blog-post-card h3 { 
+    color: black;
+    text-decoration: none;
+}
+
+.blog-post-card .date {
+    color: #ff6666;
+    font-size: 3px;
+    text-decoration: none;
+}
+
+.blog-post-card img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover; 
+}
+
+
+.blog-post-card a {
+    text-decoration: none;
+  }
+  
+
+  .blog-post-card h1,
+  .blog-post-card h2,
+  .blog-post-card p {
+    text-decoration: none; 
+  }
+
+  a {
+    color: red; 
+    text-decoration: none; 
+  }
+  
+  a:hover {
+    color: darkred;
+  }
+
+  .blog-post-card .date  {
+    color: lightcoral;
+    font-size: 11px; 
+  }
+
