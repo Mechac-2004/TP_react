@@ -1,13 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Nav from './pages/nav'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Nav from './pages/nav';
+import Kitchen from './pages/kitchen';
+
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          {/* Définir les routes de vos pages */}
+          <Route path="/about" element={<Nav/>} />
+          <Route path="/kitchen" element={<Kitchen />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
