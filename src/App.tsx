@@ -10,8 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          {/* Définir les routes de vos pages */}
-          <Route path="/about" element={<Nav/>} />
+          <Route path="/" element={<Nav/>} />
           <Route path="/kitchen" element={<Kitchen />} />
         </Routes>
       </div>
