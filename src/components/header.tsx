@@ -1,7 +1,7 @@
 import React from "react";
 import './header.css'
 import image from '../components/assets/image.jpg';
-import logo from '../components/assets/logo.jpg';
+import logo from '../components/assets/free-img.png';
 
 export default function Header(){
 
@@ -29,6 +29,7 @@ export default function Header(){
                     <li><a href="">Outdoors</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
+                
             </div>
         </div>
         <div className="text-center">

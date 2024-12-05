@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Footer from "./components/footer"
-import Posts from "./components/posts"
 import Living from './components/Room/LivingRoom';
 
 const root = ReactDOM.createRoot(
