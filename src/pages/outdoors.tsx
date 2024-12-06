@@ -1,9 +1,47 @@
 import React from "react";
+import { Link } from "react-router-dom"; 
+import '../components/header'
 import './footer.css';
 import 'boxicons/css/boxicons.min.css';
+import image from '../components/assets/image.jpg';
+import logo from '../components/assets/free-img.png';
 
-export default function Footer() {
+function Outdoors () {
+
+
+  
   return (
+    <div>
+        <header className="header"
+      style={{
+        backgroundImage: `url(${image})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        color: 'white',
+        position: 'relative',
+      }}
+    >
+      <div className="menu">
+        <div className="logo">
+          <img src={logo} alt="Logo du site" className="logo-image" />
+        </div>
+
+        <div className="nav-bar">
+          <ul>
+            <li><Link to="">About Us</Link></li> 
+            <li><Link to="">Living Room</Link></li> 
+            <li><Link to="">Kitchen</Link></li> 
+            <li><Link to="/outdoors">Outdoors</Link></li>
+            <li><Link to="">Contact</Link></li> 
+          </ul>
+        </div>
+      </div>
+      <div className="text-center">
+        <h1><br /> outdors</h1>
+        <p>Home » Outdoors</p>
+        <button>FIND YOUR STYLE</button>
+      </div>
+    </header>
     <footer className="footer">
       <div className="container_footer"> 
         <div className="footer_about">
@@ -48,6 +86,10 @@ export default function Footer() {
       </div>
 
     </footer>
-  )
+    </div>
+    
+  );
+};
 
-}
+
+export default Outdoors;
