@@ -1,8 +1,8 @@
 import React from "react";
-import '.Carte.css';
+import'./Carte.css';
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 const containerStyle = {
-  width: "600px",
+  width: "1290px",
   height: "400px",
 };
 const center = {

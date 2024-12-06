@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom"; 
 import './header.css'
-import image from '../components/assets/image.jpg';
 import logo from '../components/assets/free-img.png';
+import image from '../components/assets/image.jpg';
+
+import img from 'components/assets/free-img.png';
+
 
 export default function Header(){
   return(
     <header className="header"
       style={{
-        backgroundImage: 'url(image.jpg)',
+        backgroundImage: `url(${image})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: 'white',

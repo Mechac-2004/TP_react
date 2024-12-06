@@ -1,19 +1,21 @@
-import React from "react";
+import React from 'react';
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Nav from './pages/nav';
+import Contact from './pages/Contact/Contact';  
 
-import Header from "./components/header";
-import Footer from "./components/footer";
-import Living from './components/Room/LivingRoom';
-
-function Nav(){
-
-
-
-    return(
-        <>
-            <Header/>
-            <Living/>
-            <Footer/>
-        </>
-    )
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Nav />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
+       
+      </div>
+    </Router>
+  );
 }
-export default Nav
+
+export default App;
