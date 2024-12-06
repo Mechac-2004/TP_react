@@ -1,14 +1,26 @@
 import React from "react";
 import './header.css'
-
+import image from '../components/assets/image.jpg';
+import logo from '../components/assets/free-img.png';
 
 export default function Header(){
 
 
     return(
-        <header>
+        <header className="header"
+        style={{
+            backgroundImage: `url(${image})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            color: 'white',
+            position: 'relative',
+        }}
+        >
         <div className="menu">
-            <div className="logo"><img src="./logo.jpg" alt=" logo du site" /></div>
+        <div className="logo">
+                <img src={logo} alt="Logo du site" className="logo-image" />
+            </div>
+
             <div className="nav-bar">
                 <ul>
                     <li><a href="">About Us</a></li>
@@ -17,6 +29,7 @@ export default function Header(){
                     <li><a href="">Outdoors</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
+                
             </div>
         </div>
         <div className="text-center">

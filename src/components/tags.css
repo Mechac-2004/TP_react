@@ -1,0 +1,36 @@
+.tags-container {
+    border: 3px solid #e0e0e0;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 300px; /* Ajustez la largeur si nécessaire */
+    font-family: Arial, sans-serif;
+  }
+  
+  .tags-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .tags-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .tags-buttons button {
+    background-color: transparent;
+    border: 1px solid #e0e0e0;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #ff3e5b;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .tags-buttons button:hover {
+    background-color: #ff3e5b; 
+    color: white; /* Même couleur de texte */
+  }
+  

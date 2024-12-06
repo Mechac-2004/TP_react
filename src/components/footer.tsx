@@ -49,4 +49,8 @@ export default function Footer() {
 
     </footer>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master

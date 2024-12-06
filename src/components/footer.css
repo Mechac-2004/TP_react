@@ -1,7 +1,14 @@
+<<<<<<< HEAD
   .footer{
     background-color: black;
     font-size: smaller;
  
+=======
+.footer{
+    background-color: black;
+    font-size: 14px;
+    
+>>>>>>> master
   }
 
   .footer .footer_about{
@@ -25,7 +32,11 @@
   .container_footer{
     display: flex;
     text-align: center;
+<<<<<<< HEAD
     
+=======
+    height: 300px;
+>>>>>>> master
   }
 
   .footer .footer_bottom{
