@@ -1,14 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Nav from './pages/nav'
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <Nav/>
-    </div>
-  );
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Living from './components/Room/LivingRoom';
+
+function Nav(){
+
+
+
+    return(
+        <>
+            <Header/>
+            <Living/>
+            <Footer/>
+        </>
+    )
 }
-
-export default App;
+export default Nav
