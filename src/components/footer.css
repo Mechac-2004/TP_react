@@ -34,14 +34,20 @@
 
   .footer_bottom{
     display: flex;
-
+    width: 1000px;
   }
   .footer_link{
-    margin-left: 300px;
+    gap: 15px;
     display: flex;
     word-spacing: 5px;
-
   }
+  .footer_link a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 5px; 
+    word-spacing: 2px; 
+  }
+  
 
   .footer_text{
     margin-left: 100px;
@@ -51,5 +57,45 @@
     font-size: x-large;
   }
  
+  .footer_bottom {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding-top: 20px;
+    margin: 0 100px; 
+  }
+  
+  .footer_text p {
+    margin: 0; 
+  }
+  
+  .footer_link a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; 
+  }
+
+
+  .footer_bottom {
+    display: flex; /* Positionne les enfants sur une ligne */
+    justify-content: space-between; /* Crée de l'espace entre les blocs */
+    align-items: center; /* Aligne les éléments verticalement */
+    padding: 10px 100px; /* Ajuste l'espace autour et ajoute un peu de marge */
+  }
+  
+  .footer_text {
+    margin: 0; /* Supprime toute marge par défaut */
+  }
+  
+  
+  .footer_link a {
+    color: white; /* Assure que les liens restent blancs */
+    text-decoration: none; /* Supprime le soulignement des liens */
+  }
+  
+  
+  
+
+  
 
   

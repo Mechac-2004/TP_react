@@ -76,11 +76,13 @@ header::before {
 
 
 
-body {
-    margin: 0;
+.container_1 {
+    margin: 45px;
+    padding: 45px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #333;
+
   }
 
   .container {
@@ -90,38 +92,27 @@ body {
   }
 
   .content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+
+
   }
 
   .image-section {
-    position: relative;
+    display: flex;
+    gap: 20px;
     max-width: 50%;
   }
 
   .image-section img {
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: absolute;
-  }
-
-  .image-section img:first-child {
-    top: 0;
-    left: 0;
-    z-index: 1;
-  }
-
-  .image-section img:last-child {
-    top: 50px;
-    left: 50px;
-    z-index: 2;
+    width: 35em;
+    height: 25em;
   }
 
   .text-section {
-    max-width: 50%;
-    padding-left: 20px;
+    text-align: left;
+    margin: 0; /* Optionnel : supprime les marges automatiques */
+    padding: 0; /* Optionnel : ajuste l'espacement */
+    margin-left: 20px;
   }
 
   .text-section h1 {
@@ -131,18 +122,34 @@ body {
   }
 
   .text-section hr {
-    width: 50px;
-    height: 3px;
+    width: 60px;
+    height: 0.5px;
     background-color: #d50000;
     border: none;
     margin: 10px 0;
   }
 
   .text-section p {
-    margin-bottom: 15px;
+    margin-bottom: 2px;
+    font-size: 14px;
   }
-
   .text-section p.italic {
-    font-style: italic;
-    font-weight: bold;
-  }
+      font-style: italic;
+      font-weight: bold;
+      color: #000;
+      font-size: 20px;
+    }
+  
+    .logos-section {
+      display: flex;
+      justify-content: space-around; 
+      align-items: center; 
+      background-color: #f5f5f5; 
+      height: 8.5rem;
+    }
+    
+    .logo-item img {
+      max-height: 30px; 
+      object-fit: contain;
+    }
+    

@@ -1,6 +1,7 @@
 import React from "react";
 import './footer.css';
 import 'boxicons/css/boxicons.min.css';
+import { Link } from "react-router-dom"; 
 
 export default function Footer() {
   return (
@@ -21,7 +22,6 @@ export default function Footer() {
           <i className='bx bxl-instagram-alt'></i>
           <i className='bx bxl-pinterest'></i>
           <i className='bx bxl-twitter'></i>
-          
         </div>
         <div className="footer_contact">
           <h3>CONTACT US</h3>
@@ -39,14 +39,17 @@ export default function Footer() {
       <hr />
 
       <div className="footer_bottom">
-       <div className="footer_text">
-         <p>&copy; Copyright 2024 ,Home Decor | Powered by Home Decor</p>
+        <div className="footer_text">
+          <p>&copy; Copyright 2024 ,Home Decor | Powered by Home Decor</p>
         </div>
-       <div className="footer_link">
-        <p>About Us Living Room Kitchen Outdoors Contact</p>
-       </div>
+        <div className="footer_link">
+          <Link to="/aboutUs">About Us</Link>
+          <Link to="">Living Room</Link>
+          <Link to="">Kitchen</Link>
+          <Link to="">Outdoors</Link>
+          <Link to="">Contact</Link>
+        </div>
       </div>
-
     </footer>
-  )
+  );
 }

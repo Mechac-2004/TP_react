@@ -10,9 +10,9 @@ function Nav(){
 
     return(
         <>
-        <Header/>
-        <Living/>
-        <Footer/>
+            <Header/>
+            <Living/>
+            <Footer/>
         </>
     )
 }
