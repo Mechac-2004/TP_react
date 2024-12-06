@@ -1,0 +1,148 @@
+.header_about {
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    z-index: 1; 
+}
+
+.menu_about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.nav-bar_about{
+    margin-right: 90px;
+}
+.menu_about .nav-bar_about ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu_about .nav-bar_about ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.logo_about{
+    margin-left: 80px;
+}
+.menu_about .logo_about img {
+    width: 170px;
+    height: auto;
+}
+
+
+.text-center_about {
+    text-align: center;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+}
+
+.text-center_about h2 {
+    font-size: 2em; 
+}
+
+.text-center_about h1 {
+    font-size: 5.2rem; 
+    margin-top: 8px;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .image-section {
+    position: relative;
+    max-width: 50%;
+  }
+
+  .image-section img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+  }
+
+  .image-section img:first-child {
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .image-section img:last-child {
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+  }
+
+  .text-section {
+    max-width: 50%;
+    padding-left: 20px;
+  }
+
+  .text-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #000;
+  }
+
+  .text-section hr {
+    width: 50px;
+    height: 3px;
+    background-color: #d50000;
+    border: none;
+    margin: 10px 0;
+  }
+
+  .text-section p {
+    margin-bottom: 15px;
+  }
+
+  .text-section p.italic {
+    font-style: italic;
+    font-weight: bold;
+  }
