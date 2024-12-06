@@ -25,7 +25,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ title, date, image, excerpt }) => {
       <img src={image} className="card-img-top custom-image" alt={title} />
       <div className="no-border">
         <p className="card-text">{excerpt}</p>
-        <a href="#" className="read-more-red-link">Read More</a>
+        <a href="#" className="read-more-red-link">Read More <i className='bx bxs-chevrons-right' ></i></a>
         
 
       </div>
@@ -34,6 +34,3 @@ const BlogPost: React.FC<BlogPostProps> = ({ title, date, image, excerpt }) => {
 };
 
 export default BlogPost;
-
-
-
