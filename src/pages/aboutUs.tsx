@@ -34,7 +34,7 @@ function AboutUs () {
             <ul>
               <li><Link to="/AboutUs">About Us</Link></li> 
               <li><Link to="">Living Room</Link></li> 
-              <li><Link to="">Kitchen</Link></li> 
+              <li><Link to="/kitchen">Kitchen</Link></li> 
               <li><Link to="">Outdoors</Link></li>
               <li><Link to="">Contact</Link></li> 
             </ul>
@@ -135,7 +135,7 @@ function AboutUs () {
         <div className="footer_link">
           <Link to="/aboutUs">About Us</Link>
           <Link to="">Living Room</Link>
-          <Link to="">Kitchen</Link>
+          <Link to="/kitchen">Kitchen</Link>
           <Link to="">Outdoors</Link>
           <Link to="">Contact</Link>
         </div>

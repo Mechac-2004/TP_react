@@ -22,11 +22,11 @@ export default function Header(){
 
         <div className="nav-bar">
           <ul>
-            <li><Link to="/AboutUs">About Us</Link></li> 
-            <li><Link to="">Living Room</Link></li> 
-            <li><Link to="">Kitchen</Link></li> 
+            <li><Link to="/aboutUs">About Us</Link></li> 
+            <li><Link to="">Living Room</Link></li>
+            <li><Link to="/kitchen">Kitchen</Link></li>
             <li><Link to="">Outdoors</Link></li>
-            <li><Link to="">Contact</Link></li> 
+            <li><Link to="">Contact</Link></li>
           </ul>
         </div>
       </div>

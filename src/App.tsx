@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './pages/nav';
 import AboutUs from './pages/aboutUs';  
+import Kitchen from './pages/kitchen';
 
 
 function App() {
@@ -10,10 +11,10 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Nav />} />
+          <Route path="/" element={<Nav/>} />
           <Route path="/aboutUs" element={<AboutUs />} />
+          <Route path="/kitchen" element={<Kitchen />} />
         </Routes>
-       
       </div>
     </Router>
   );
