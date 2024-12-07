@@ -1,6 +1,6 @@
 import React from "react";
 import './Contact.css'
-import image from '../../components/assets/image.jpg';
+import contback from '../../components/assets/contback.png';
 import logo from '../../components/assets/free-img.png';
 import Carte from '../Contact/Carte';
 import { Link } from "react-router-dom"; 
@@ -12,7 +12,7 @@ function Contact(){
         <>
         <header className="Contact"
         style={{
-            backgroundImage: `url(${image})`,
+            backgroundImage: `url(${contback})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             color: 'white',
