@@ -1,0 +1,76 @@
+.header_outdoors {
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+}
+
+.menu_outdoors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.nav-bar_outdoors{
+    margin-right: 90px;
+}
+.menu_outdoors .nav-bar_outdoors ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu_outdoors .nav-bar_outdoors ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.logo{
+    margin-left: 80px;
+}
+.menu_outdoors .logo img {
+    width: 170px;
+    height: auto;
+}
+
+
+.text-center_outdoors {
+    text-align: center;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+}
+
+button {
+    background-color: #eb1a52;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+.text-center_outdoors h1 {
+    font-size: 60px; 
+}
+
+.text-center_outdoors p {
+    font-size: 1.2rem; 
+    margin-top: 10px;
+}
+
+

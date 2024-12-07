@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactDOM } from "react";
 import { Link } from "react-router-dom"; 
 import 'boxicons/css/boxicons.min.css';
 
@@ -30,12 +29,11 @@ export default function Kitchen(){
 
         <div className="nav-bar">
           <ul>
-            {/* Remplacer <a> par <Link> pour la redirection sans recharger la page */}
-            <li><Link to="/aboutUs">About Us</Link></li>
-            <li><Link to="">Living Room</Link></li>
+          <li><Link to="/aboutUs">About Us</Link></li> 
+            <li><Link to="/Livingroom">Living Room</Link></li>
             <li><Link to="/kitchen">Kitchen</Link></li>
-            <li><Link to="">Outdoors</Link></li>
-            <li><Link to="">Contact</Link></li>
+            <li><Link to="/outdoors">Outdoors</Link></li>
+            <li><Link to="/Contact">Contact</Link></li>
           </ul>
         </div>
       </div>
@@ -95,11 +93,11 @@ export default function Kitchen(){
           <p>&copy; Copyright 2024 ,Home Decor | Powered by Home Decor</p>
         </div>
         <div className="footer_link">
-          <Link to="/aboutUs">About Us</Link>
-          <Link to="">Living Room</Link>
-          <Link to="/kitchen">Kitchen</Link>
-          <Link to="">Outdoors</Link>
-          <Link to="">Contact</Link>
+            <Link to="/aboutUs">About Us</Link> 
+            <Link to="/Livingroom">Living Room</Link>
+            <Link to="/kitchen">Kitchen</Link>
+            <Link to="/outdoors">Outdoors</Link>
+            <Link to="/Contact">Contact</Link>
         </div>
       </div>
     </footer>

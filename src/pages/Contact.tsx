@@ -1,15 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom"; 
-import './aboutUs.css'
+import './Contact.css'
 import image_about from '../components/assets/lady-in-balcony.jpg';
 import logo from '../components/assets/free-img.png';
-import image_body from '../components/assets/pic14-free-img.png';
-import logo_1 from '../components/assets/client-logo-1.png'
-import logo_2 from '../components/assets/client-logo-3.png'
-import logo_3 from '../components/assets/client-logo-4.png'
-import logo_4 from '../components/assets/client-logo-5.png'
+import Carte from './Carte';
 
-function AboutUs () {
+
+function Contact () {
 
 
   
@@ -32,67 +29,32 @@ function AboutUs () {
 
           <div className="nav-bar_about">
             <ul>
-              <li><Link to="/AboutUs">About Us</Link></li> 
-              <li><Link to="/Livingroom">Living Room</Link></li> 
-              <li><Link to="/kitchen">Kitchen</Link></li> 
+              <li><Link to="/aboutUs">About Us</Link></li> 
+              <li><Link to="/Livingroom">Living Room</Link></li>
+              <li><Link to="/kitchen">Kitchen</Link></li>
               <li><Link to="/outdoors">Outdoors</Link></li>
               <li><Link to="/Contact">Contact</Link></li> 
             </ul>
           </div>
         </div>
         <div className="text-center_about">
-          <h2>Know More</h2>
-          <h1>About Us</h1>
+          <h1>Get In Touch</h1>
         </div>
       </header>
 
       {/*Body*/}
 
-      <div className="container_1">
-        <div className="container">
-          <div className="content">
+      <div className="container_2">
+                <div className="container_3">
+                <div className="container_4">
 
-            <div className="image-section">
-              <img src={image_body} alt="Decorative Image 1"/>
+                    <div className="Carte">
+                        <div>
+                        <Carte />
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div className="text-section">
-              <h1>Working Since 1995</h1>
-              <hr/>
-              <p>
-                Taciti alias conubia, senectus, soluta nisl interdum vitae eius habitant metus dapibus quis eos, 
-                risus, vehicula! Egestas qui interdum habitant! Laoreet, placeat maxime Suspendisse.
-                Taciti alias conubia, senectus, soluta nisl interdum vitae eius habitant metus. 
-              </p>
-              <p className="italic">Design is a funny word</p>
-              <p>
-                Taciti alias conubia, senectus, soluta nisl interdum vitae eius habitant metus dapibus quis eos, 
-                risus, vehicula! Egestas qui interdum habitant! Laoreet, placeat maxime Suspendisse.
-                Taciti alias conubia, senectus, soluta nisl interdum vitae eius habitant metus. 
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div className="logos-section">
-        <div className="logo-item">
-          <img src={logo_1} alt="Logo 1" />
-        </div>
-        <div className="logo-item">
-          <img src={logo_2} alt="Logo 2" />
-        </div>
-        <div className="logo-item">
-          <img src={logo_4} alt="Logo 3" />
-        </div>
-        <div className="logo-item">
-          <img src={logo_3} alt="Logo 4" />
-        </div>
-        <div className="logo-item">
-          <img src={logo_2} alt="Logo 5" />
-        </div>
-    </div>
-
 {/*Footer*/}
 
 <footer className="footer">
@@ -143,7 +105,8 @@ function AboutUs () {
     </footer>
 
     </div>
+    </div>
   );
 };
 
-export default AboutUs;
+export default Contact;
